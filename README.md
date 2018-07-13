@@ -11,26 +11,26 @@ likely to change my mind.
 Here's some of my choices of tools & libraries.  No tools are perfect, but these
 are popular and well-tested, and in my opinion, will serve you well.
 
-## Vendoring - [dep](github.com/golang/dep)
+## Vendoring - [dep](https://github.com/golang/dep)
 
 For now, dep is the standard in the go ecosystem.  This will change when/if
 another tool becomes the standard (likely when vgo is integrated into the go
 tool).
 
-## CLI - [viper](github.com/spf13/viper) & [cobra](github.com/spf13/cobra) While
+## CLI - [viper](https://github.com/spf13/viper) & [cobra](https://github.com/spf13/cobra) 
 
-I have a few issues with the way these libraries work, but they're the best
-  supported ones on the market, they make it easy to spin up a complex CLI, and
-  you can mostly work around their wonkiness.
+While I have a few issues with the way these libraries work, they're the
+  best supported ones on the market, they make it easy to spin up a complex CLI,
+  and you can mostly work around their slight wonkiness.
   
-## Logging - [logrus](github.com/sirupsen/logrus) 
+## Logging - [logrus](https://github.com/sirupsen/logrus) 
 
 Structured logging is a good thing, and logrus is well supported and easy to
   use.  Other logging systems trade an awkward API for fewer allocations, and
   unless you're google or a trading system you shouldn't care about the speed of
   your logging system 
 
-## Build tool - [mage](github.com/magefile/mage)
+## Build tool - [mage](https://github.com/magefile/mage)
 
 Users of make long ago realized the power of canonicalizing dev tasks in code.
 But why use another language when you can use Go for that, too?  Mage makes it
