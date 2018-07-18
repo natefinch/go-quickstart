@@ -12,7 +12,7 @@ import (
 	"github.com/magefile/mage/sh"
 )
 
-// Runs "go build" for Who.  This generates the version info the binary.
+// Runs "go build" for my server.  This generates the version info the binary.
 func Build() error {
 	ldf, err := flags()
 	if err != nil {

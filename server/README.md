@@ -1,2 +1,3 @@
-# who
-Who is an identity provider written in Go.
+# my-server
+
+This is a default readme for your project.
