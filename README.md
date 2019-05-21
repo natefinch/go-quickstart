@@ -11,12 +11,6 @@ likely to change my mind.
 Here's some of my choices of tools & libraries.  No tools are perfect, but these
 are popular and well-tested, and in my opinion, will serve you well.
 
-## Vendoring - [dep](https://github.com/golang/dep)
-
-For now, dep is the standard in the go ecosystem.  This will change when/if
-another tool becomes the standard (likely when vgo is integrated into the go
-tool).
-
 ## CLI - [viper](https://github.com/spf13/viper) & [cobra](https://github.com/spf13/cobra) 
 
 While I have a few issues with the way these libraries work, they're the
